@@ -6,8 +6,14 @@ h1{
     margin: 0px;
     text-align: center;
 
-} 
+}
 
+
+.MeandI{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+}
 body{
     background-color: rgb(75, 132, 170);
     font-style: oblique;
