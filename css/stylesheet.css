@@ -1,51 +1,44 @@
 h1{
-    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    background-color: rgba(3, 26, 32, 0.514);
-    background-size: contain;
-    font-weight: bolder;
-    font-style: inherit;
+    background-color: rgb(2, 89, 110);
+    height: 100px;
     margin: 0px;
+    font-size: 70px;
+    font-style: oblique;
     text-align: center;
-    font-size: 60px;
-    padding: 30px;
-    border-radius: 0%;
-    position: fixed;
+}
+
+.container{
+    display: flex;
+    align-content: first baseline;
+    background-color: rgb(3, 63, 92);
+}
+
+.sidebar{
+    background-color: rgb(2, 89, 110);
+    width: 800px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: oblique;
+    position: relative;
+    padding-left: 0px;
+    margin: 0px;
 }
 
 .items{
-    background-color: rgba(5, 99, 9, 0.514);
-    height: 50px;
-    width: 1000px;
+    background-color: rgba(13, 146, 163, 0.007);
+    height: 100px;
+    width: 100px;
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
-    position: relative;
+    flex-direction: column;
+    align-items: flex-start;
+    position: fixed;
 }
 
 .MeandI{
     display:block;
-    margin-left: auto;
     margin-right: auto;
-    border-radius: 50%;
-    
-}
-
-body{
-    background-color: rgb(75, 132, 170);
-    font-style: oblique;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: small;
-    font-weight: 100;
-    margin: 0px;
-    color:aliceblue;
-    border-style: solid;
-    border-width: 3px;
-    border-left-width: 10px;
-    border-right-width: 10px;
-    border-color: rgb(6, 92, 92);
-    border-radius: 0px;
-    position: sticky;
+    border-radius: 50%;  
+    background-color: aquamarine;  
+    position: relative;
 }
 
 h2{
@@ -69,4 +62,12 @@ p{
     padding-left: 1%;
     padding-right: 1%;
     text-align: justify;
+}
+
+.footer{
+    background-color: rgb(3, 122, 151);
+    margin: 0px;
+    height: 100px;
+    position: sticky;
+    display: block;
 }
