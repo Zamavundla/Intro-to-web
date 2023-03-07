@@ -1,0 +1,67 @@
+<form action="https://formsubmit.co/zsdouzee8@gmail.com" method="POST">
+    <h4>Registration Form</h4>
+    <div>
+        <label for="user_id">User id:</label>
+        <input type="text" min="5" max="12" required>
+    
+    </div>
+<br>
+    <div>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" pattern=".{8,}" title="min=7 max=12" required>
+    
+    </div>
+<br>
+    <div>
+        <label for="address">Address:</label>
+        <input type="text" optional>
+    
+    </div>
+<br>
+    <div>
+        <label for="country">Country:</label>
+        <select name="country" required>
+            <option value="South Africa">South Africa</option>
+            <option value="United States">United States</option>
+            <option value="United Kingdom">United Kingdom</option>
+            <option value="Asia">Asia</option>
+            <option value="Egypt">Egypt</option>
+            <option value="New Zealand">New Zealand</option>
+        </select>
+    
+    </div>
+<br>
+    <div>
+        <label for="zip code">ZIP Code:</label>
+        <input type="number" required>
+    
+    </div>
+<br>
+    <div>
+        <label for="email">Email:</label>
+        <input type="mail" id="mail" name="user_mail" required>
+    
+    </div>
+<br>
+    <div>
+        <label for="gender">Sex</label>
+            <input type="radio" id="Male" name="gender" value="Male">
+            <label for="Male">Male</label>
+            <input type="radio" id="Female" name="gender" value="Female">
+            <label for="Female">Female</label>   
+    </div>
+<br>
+    <div>
+        <label for="language">Language:</label>
+            <input type="checkbox" id="English" name="language" value="English">
+            <label for="English">English</label>
+            <input type="checkbox" id="Non English" name="language" value="Non English">
+            <label for="Non English">Non English</label>    
+    </div>
+<br>
+    <div>
+        <label for="msg">About:</label>
+        <textarea name="user_message" id="msg"></textarea>
+    </div>
+    <input type="submit">
+  </form>

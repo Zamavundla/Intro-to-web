@@ -75,7 +75,7 @@ p{
 .footer{
     background-color: rgb(3, 122, 151);
     margin: 0px;
-    height: 100px;
+    height: fit-content;
     position: sticky;
     display: block;
 }
