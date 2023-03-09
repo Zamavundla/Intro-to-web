@@ -7,10 +7,6 @@ h1{
     text-align: center;
 }
 
-.hero{
-    
-}
-
 .container{
     display: flex;
     align-content: first baseline;
@@ -26,6 +22,7 @@ h1{
     padding-left: 0px;
     margin: 0px;
 }
+
 
 .items{
     background-color: rgba(10, 210, 236, 0.007);
@@ -76,7 +73,6 @@ p{
     display: flex;
     flex-direction: column;
 }
-
 
 body{
     border-style: solid;
