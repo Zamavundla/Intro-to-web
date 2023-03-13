@@ -5,9 +5,17 @@
     background-color: rgb(2, 89, 110);
 }
 
+@media(max-width: 40em){
+    .sections{
+        display: flex;
+        gap: 2em;
+        display: block;
+    }
+}
+
 .sidebar{
     background-color: rgb(2, 89, 110);
-    width: 800px;
+    max-width: 800px;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-style: oblique;
     position: relative;
@@ -49,7 +57,7 @@ body{
 
 .items{
     height: 100px;
-    width: 100px;
+    max-width: 100px;
     list-style-type: none;
     display: flex;
     flex-direction: column;
@@ -65,6 +73,8 @@ body{
     border-radius: 50%;  
     background-color: aquamarine;  
     position: relative;
+    min-width: 400px; 
+    min-height: 350px;
 }
 
 h2{
