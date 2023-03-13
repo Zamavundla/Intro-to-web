@@ -99,7 +99,7 @@ p{
     flex-direction: column;
 }
 
-html body{
+body{
     border-style: solid;
     border-left-width: 10px;
     border-right-width: 10px;
