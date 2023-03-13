@@ -1,16 +1,8 @@
-h1{
-    background-color: rgb(2, 89, 110);
-    height: 100px;
-    margin: 0px;
-    font-size: 70px;
-    font-style: oblique;
-    text-align: center;
-}
 
 .container{
     display: flex;
     align-content: first baseline;
-    background-color: rgb(3, 63, 92);
+    background-color: rgb(2, 89, 110);
 }
 
 .sidebar{
@@ -23,15 +15,46 @@ h1{
     margin: 0px;
 }
 
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.hero-image{
+    background-image: linear-gradient(rgb(0, 0, 0, 0.5), rgb(0 , 0, 0, 0.5)), url(/image/banner.avif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1000%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero-image .hero-text{
+    color: aliceblue;
+    text-align: center;
+}
+.hero-image .hero-text h1{
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.hero-image .hero-text p{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 20px;
+}
 
 .items{
-    background-color: rgba(10, 210, 236, 0.007);
     height: 100px;
     width: 100px;
     list-style-type: none;
     display: flex;
     flex-direction: column;
     align-items: first baseline;
+    background-color: rgb(3, 102, 102);
 }
 
 .MeandI{
@@ -74,7 +97,7 @@ p{
     flex-direction: column;
 }
 
-body{
+html body{
     border-style: solid;
     border-left-width: 10px;
     border-right-width: 10px;
